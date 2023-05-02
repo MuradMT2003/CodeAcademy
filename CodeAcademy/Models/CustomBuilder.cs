@@ -70,7 +70,7 @@ public class CustomBuilder
             Capacity = Capacity * 2;
         }
         char[] chars = new char[_arr.Length - count];
-        for (int i = 0; i < _arr.Length; i++)
+        for (int i = 0; i < chars.Length; i++)
         {
             if (i < index || i >= index + count)
             {
@@ -95,6 +95,10 @@ public class CustomBuilder
         {
             return _arr;
         }
+    }
+    public override string ToString()
+    {
+        return new string(_arr);
     }
 
 }
