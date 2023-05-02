@@ -1,11 +1,7 @@
-﻿using CodeAcademy;
+﻿#region StringBuilder
+using CodeAcademy.Models;
+CustomBuilder cb = new CustomBuilder();
+Console.WriteLine("Lenght:" + cb.Length);
+Console.WriteLine("Capacity:" + cb.Capacity);
 
-Student s=new Student()
-{
-    Name="Murad",
-    Surname="Mammadzada"
-};
-Group group = new Group(1,5);
-group.AddStudent(s);
-group.GetStudents();
-
+#endregion
