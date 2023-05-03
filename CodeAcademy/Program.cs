@@ -1,16 +1,13 @@
-﻿#region StringBuilder
-using CodeAcademy.Models;
-CustomBuilder cb = new CustomBuilder();
-Console.WriteLine("Lenght:" + cb.Length);
-Console.WriteLine("Capacity:" + cb.Capacity);
-cb.Append('a');
-cb.Append('b');
-cb.Append('c');
-foreach (var item in cb.GetResult)
-{
-    Console.WriteLine(item);
-}
-cb.Replace('\0', 'k');
-cb.Remove(2, 5);
-Console.WriteLine(cb);
-#endregion
+﻿using CodeAcademy.Models;
+using CodeAcademy.Utilies;
+Student s1 = new ();
+Console.WriteLine(s1.Id);
+Student s2 = new();
+Console.WriteLine(s2.Id);
+Student s3 = new();
+Console.WriteLine(s3.Id);
+Student s4 = new();
+Console.WriteLine(s4.Id);
+Student s5 = new();
+Console.WriteLine(s5.Id);
+Console.WriteLine("Salam Kamran. Necəsən Kamran ".MatchCount("Kamran"));
