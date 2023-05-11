@@ -1,13 +1,1 @@
-﻿using CodeAcademy.Models;
-using CodeAcademy.Utilies;
-Student s1 = new ();
-Console.WriteLine(s1.Id);
-Student s2 = new();
-Console.WriteLine(s2.Id);
-Student s3 = new();
-Console.WriteLine(s3.Id);
-Student s4 = new();
-Console.WriteLine(s4.Id);
-Student s5 = new();
-Console.WriteLine(s5.Id);
-Console.WriteLine("Salam Kamran. Necəsən Kamran ".MatchCount("Kamran"));
+﻿
